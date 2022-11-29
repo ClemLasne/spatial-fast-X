@@ -1,7 +1,7 @@
 # spatial-fast-X
 Codes for 'The relative contributions of the X chromosome and autosomes to local adaptation'
 
-
+```ruby
 # Environmental transition : abrupt
 # dominance model: reversal
 # deterministic model
@@ -405,3 +405,5 @@ plot(1:H,(fAA_a+fAB_a/2+gAA_a+gAB_a/2)/2 ,ylim=c(0,1),type="l",col="red")
 par(new=TRUE)
 #fA X-LINKED (blue line)
 plot(1:H, 2*(fAA_x + fAB_x/2)/3 + gA_x/3 ,ylim=c(0,1),type="l",col="blue")
+
+```
